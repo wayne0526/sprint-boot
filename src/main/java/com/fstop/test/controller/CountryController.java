@@ -32,6 +32,7 @@ public class CountryController {
 
 	}
 
+
 	@RequestMapping("/result")
 	public String saveData(@RequestParam Map<String, Object> test, Map<String, Object> model) {
 		log.info("result controller");
